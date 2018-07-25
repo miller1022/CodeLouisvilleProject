@@ -1,0 +1,121 @@
+/* Page Styles*/
+
+body {
+    background-color: cornsilk;
+    
+}
+
+
+/* Base Styles */
+
+header {
+    color: white;
+    background-color: goldenrod;
+    margin: 10px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.row h3 {
+    padding-left: 10px;
+    margin-top: -18px;
+}
+
+.row button {
+    justify-content: center;
+    
+}
+
+header .modal-body {
+    color: black;
+}
+
+header .modal-body h3{
+    margin-top: 15px;
+    text-align: center;
+}
+
+header .modal-body .h5{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom 10px;
+}
+
+header .modal-body .address{
+    padding-top: 10px
+}
+
+header .modal-body #description{
+    margin-top: 15px;
+}
+
+.nav {
+    border: .2px solid black;
+    border-radius: 25px;
+    color: white;
+    background-color: goldenrod;
+}
+
+#first-row {
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+#first-row .h3 {
+    line-height: 5rem;
+}
+
+.lead {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#after-lists {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.main-footer {
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px){
+    /* mobile phones */
+    body {
+      text-align: center;  
+    display: inline-block;
+    }
+    
+    header {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #first-row #highlights {
+        min-width: 100%;
+        
+    }
+    
+    #inside {
+        padding-top: 10px;
+    }
+    
+    #social-media {
+        padding-top: 25px;
+    }
+    
+}
